@@ -1,0 +1,17 @@
+*.idea
+
+# node.js
+node_modules/
+public/uploads/
+npm-debug.log
+
+log/
+**/.next
+**/.docz
+
+yarn-error.log
+
+**/uploads/
+
+others/
+**/other

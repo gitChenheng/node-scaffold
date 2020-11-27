@@ -1,0 +1,46 @@
+{
+    "name": "scaffold",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/server/index.ts",
+    "scripts": {
+        "start": "ts-node src/server/index.ts",
+        "dev": "ts-node src/server/index.ts",
+        "babel-start": "babel-node src/server/index.ts",
+        "lint": "tslint --project ./",
+        "initdb": "ts-node src/server/db/sync-db.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.14.6",
+        "assert": "^2.0.0",
+        "escodegen": "^2.0.0",
+        "esprima": "^4.0.1",
+        "estraverse": "^5.2.0",
+        "ioredis": "^4.19.2",
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.13.0",
+        "koa-body": "^4.2.0",
+        "koa-bodyparser": "^4.3.0",
+        "koa-helmet": "^6.0.0",
+        "koa-router": "^10.0.0",
+        "koa-sslify": "^4.0.3",
+        "koa-static": "^5.0.0",
+        "koa2-request": "^1.0.4",
+        "log4js": "^6.3.0",
+        "module-alias": "^2.2.2",
+        "node-require-alias": "^1.0.1",
+        "reflect-metadata": "^0.1.13",
+        "sequelize": "^6.3.5",
+        "sequelize-typescript": "^1.1.0",
+        "ts-node": "^9.0.0",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.5",
+        "typescript-transform-paths": "^2.0.2",
+        "typings": "^2.1.1"
+    },
+    "_moduleAliases": {
+        "@": "./src/"
+    }
+}
